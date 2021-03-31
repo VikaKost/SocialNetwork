@@ -1,0 +1,48 @@
+.createPost{
+    width: 100%;
+    background: #fff;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 20px 0px rgb(44 101 144 / 10%);
+}
+
+.title{
+    padding: 20px 20px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.title h4{
+    font-weight: 400;
+    margin: 0px;
+    color: #3f414d;
+    font-size: 1.4rem;
+}
+
+.input{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+.input input{
+    height: 45px;
+    font-size: 14px;
+    background: transparent;
+    width: 100%;
+    border: 0;
+}
+
+.input input:focus{
+    outline: none;
+}
+
+.input img{
+    border-radius: 50%;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.submit{
+    background-color: #f5fbff;
+    color: #50b5ff;
+}
+

@@ -1,0 +1,96 @@
+.header{
+    min-height: 73px;
+    line-height: 73px;
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: 0;
+    width: 100%;
+    display: inline-block;
+    z-index: 9999;
+    background: #fff;
+    margin: 0;
+    transition: all 0.45s ease 0s;
+    box-shadow: 0px 0px 20px 0px rgba(44,101,144, .1);
+}
+
+.header img{
+    height: 3rem;
+}
+
+.wrapper{
+    padding: 5px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoBox{
+    display: flex;
+    align-items: center;
+}
+.logoBox .item{
+    margin-right: 20px;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menuIcon{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+
+
+.search{
+    background: #f5fbff;
+    border-radius: 0.5rem;
+    height: fit-content;
+    padding: 0.5rem;
+    line-height: 0;
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.search input, .search button{
+    border: none;
+    background: #f5fbff;
+}
+
+.search button{
+    color: #50b5ff;
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+.search input:focus, .search button:focus{
+    outline: none;
+}
+
+
+.userInfo{
+    display: flex;
+    align-items: center;
+}
+
+.userInfo img{
+    border-radius: 5rem;
+    margin-right: 1rem;
+}
+
+.userName{
+    color: #3f414d;
+    margin-right: 1rem;
+}
+
+.userIcon{
+    color: #50b5ff;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}

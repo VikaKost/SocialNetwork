@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    background:  #3AAFA9;
+    padding: 1rem 5rem;
+    height: 3rem;
+    align-items: center;
+}
+
+.footer img{
+    height: 2rem;
+}
+
+.item{
+
+}
